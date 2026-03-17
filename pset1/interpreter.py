@@ -1,7 +1,7 @@
 def main():
 	expression = input("Expression: ")
 	x, y, z = expression.split(" ")
-	x, z = float(x), float(z)
+	x, z = int(x), int(z)
 	result = calculate(x, y, z)
 	print(f"{result:.1f}")
 	
